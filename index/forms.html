@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Form Demo</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>
+            <!--Action - where the form send data to-->
+            <!--Method - What HTTP method (get/post)-->
+            <h1>Log In</h1>
+            <!--            <form action="http://wikipedia.org">
+                            <label>
+                                Username:
+                                <input name="username" type="text" placeholder="username">
+                            </label>
+            
+                                        <input type="color">
+                                        <input type="radio">
+                            <label>
+                                Password:
+                                <input name="password" type="password" placeholder="password">
+                            </label>
+                            <input type="submit">
+                        </form>-->
+
+            <form action="http://wikipedia.org">
+                <label for="username">Username:</label>
+                <input id="username" type="text" placeholder="username" required>
+                <label for="password">Password:</label>
+                <input id="password" type="password" placeholder="password" required>
+                <label for="email">Email:</label>
+                <input id="email" placeholder="Email Address" type="email" required>
+                <input type="submit">
+            </form>
+        </div>
+    </body>
+</html>
