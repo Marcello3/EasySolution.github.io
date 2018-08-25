@@ -1,0 +1,115 @@
+/*Style the HTML elemtnts according to the following instructions.
+DO NOT ALTER THE EXISTING HTML TO DO THIS. WRITE ONLY CSS!*/
+
+/*Give the <body> element a background of #bdc3c7                                      DONE*/
+
+/*Make the <h1> elements #9B59B6                                                       DONE*/
+
+/*Make all <h2> elemets oragne                                                         DONE*/
+
+/*Make all <li> elements blue(pick your own hexadecimal blue)*/
+
+/*Change the background on every paragraph to be yellow                                DONE*/
+
+/*Make all inputs have a 3px red border                                                DONE*/
+
+/*Give everything with the class 'hello' a white backgroud                             DONE*/
+
+/*Give the element with id 'special' a 2px solid blue border(pick your own rgb blue)   DONE*/
+
+/*Make all the <p>'s taht are nested inside of divs 25px font(font-size: 25px)         DONE*/
+
+/*Make only inputs with type 'text' have a gray background                             DONE*/
+
+/*Give both <p>'s inside the 3rd <div> a pink background                               DONE*/
+
+/*Give the 2nd <p> inside the 3rd <div> a 5px white border                             DONE*/
+
+/*Make the <em> in the 3rd <div> element white and 20px font(fon-size: 20px)           DONE*/
+
+/*BONUS CALLENGES
+You may need to research some other selectors and properties*/
+
+/*Make all "checked" checkboxes have a left margin of 50px(margin-left: 50px)          DONE*/
+
+/*Make the <label> elements all UPPERCASE without changing the HTML                    DONE*/
+
+/*Make the first letter of the element with id 'special' green and 100px font size     DONE*/
+
+/*Make the <h1> element's color change to blue when hovered over                       DONE*/
+
+/*Make the <a> element's that have been visited gray                                   DONE*/
+
+body{
+    background: #bdc3c7;
+}
+
+h1{
+    color: #9B59B6;
+}
+
+h2{
+    color: orange;
+}
+
+li{
+   color: blue;
+}
+
+p{
+    background-color: #f3ebaf;
+}
+
+input{
+    border: 3px solid red;
+}
+
+.hello{
+    background: white;
+}
+
+#special{
+    border: 2px solid #6687dd;
+}
+
+div p{
+    font-size: 25px;
+}
+
+input[type="text"]{
+    background: gray;
+}
+
+div:nth-of-type(3) p{
+    background: pink;
+}
+
+div:nth-of-type(3) p:nth-of-type(2){
+    border: 5px solid white;
+}
+
+div:nth-of-type(3) em{
+    color: white;
+    font-size: 20px;
+}
+
+input[type="checkbox"]:checked {
+    margin-left: 50px;
+}
+
+label{
+    text-transform: uppercase;
+}
+
+h1:hover{
+    color: blue;
+}
+
+a:visited{
+    color: gray;
+}
+
+#special::first-letter{
+    color: green;
+    font-size: 100px;
+}
