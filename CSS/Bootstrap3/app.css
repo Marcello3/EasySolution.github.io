@@ -1,0 +1,37 @@
+
+/*hexadecimal*/
+h1{
+    color: #ff9999;
+    border: 2px gray dashed;
+}
+
+li{
+    color: rgb(45,25,50);
+    border: 3px aqua inset
+}
+/*RGB (RED-GREE-BLUE)*/
+h1{
+    color: rgb(50,0,100);
+}
+
+/*RGBA (RED-GREEN-BLUE-ALPHA) TRASPARENCY*/
+h1{
+    color: rgba(50, 0, 100, .5);
+}
+
+h1{
+    color: rgb(25,100,25);
+}
+body{
+    background: url(https://wallpapercave.com/wp/kGj2k4p.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+/*li{
+    color: green;
+}
+
+h4{
+    color: purple;
+}
+*/
